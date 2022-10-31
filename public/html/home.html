@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note App</title>
+  <link rel="stylesheet" href="../richtexteditor/rte_theme_default.css" />
+  <link rel="stylesheet" href="../css/index.css">
+  <script type="text/javascript" src="../richtexteditor/rte.js"></script>
+  <script type="text/javascript" src='../richtexteditor/plugins/all_plugins.js'></script>
+</head>
+<body>
+  <main>
+    <div class="container home-container">
+        <a href="../index.html">
+            <button class="orange-image">Sign-Out</button>
+        </a>
+        <div class="flex-box1">
+            <div class="search">
+                <button type="button" class="search-btn"><img src="../img/search.svg"/></button>
+                <input type="search" name="search" id="search" placeholder="search...">
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <h3 class="title">Title</h3>
+                        <p class="note">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="edit-delete">
+                            <div class="edit">
+                                <img src="../img/edit.svg" alt="" width="15">
+                            </div>
+                            <div class="del">
+                                <img src="../img/delete.svg" alt="" width="25">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="title">Title</h3>
+                        <p class="note">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="edit-delete">
+                            <div class="edit">
+                                <img src="../img/edit.svg" alt="" width="15">
+                            </div>
+                            <div class="del">
+                                <img src="../img/delete.svg" alt="" width="25">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="title">Title</h3>
+                        <p class="note">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="edit-delete">
+                            <div class="edit">
+                                <img src="../img/edit.svg" alt="" width="15">
+                            </div>
+                            <div class="del">
+                                <img src="../img/delete.svg" alt="" width="25">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="title">Title</h3>
+                        <p class="note">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="edit-delete">
+                            <div class="edit">
+                                <img src="../img/edit.svg" alt="" width="15">
+                            </div>
+                            <div class="del">
+                                <img src="../img/delete.svg" alt="" width="25">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="title">Title</h3>
+                        <p class="note">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <div class="edit-delete">
+                            <div class="edit">
+                                <img src="../img/edit.svg" alt="" width="15">
+                            </div>
+                            <div class="del">
+                                <img src="../img/delete.svg" alt="" width="25">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="paginate">
+                    <button>prev</button>
+                    <button>next</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex-box2">
+            <div id="div_editor1">
+                <!-- <p>This is a default toolbar demo of Rich text editor.</p>
+                <p><img src='../img/landing-page.png' width="200"/></p> -->
+            </div>
+        </div>
+    </div>
+  </main>
+  <script type="module" src="../../dist/index.js"></script>
+  <script>
+	var editor1 = new RichTextEditor("#div_editor1");
+	//editor1.setHTMLCode("Use inline HTML or setHTMLCode to init the default content.");
+</script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note App</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <main>
+
+    <div class="overlay hide fadeIn">
+      <form action="#" method="post" class="signup hide">
+        <div class="close fadeOut">&times;</div>
+        <div>
+          <label for="mail">Email</label>
+          <input type="email" id="mail" class="mail" placeholder="email" value="">
+        </div>
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="username" class="username">
+        </div>
+        <div>
+          <label for="pword">Password</label>
+          <input type="password" id="pword" class="password" placeholder="password">
+        </div>
+        <div>
+          <label for="confirm_password">Confirm Password</label>
+          <input type="password" id="confirm_password" placeholder="confirm password" class="confirmPassword">
+        </div>
+        <div class="div-button">
+          <button type="submit" class="btn form-btn signup-btn">Sign-Up</button>
+        </div>
+      </form>
+
+      <form action="" method="post" class="signIn hide">
+        <div class="close">&times;</div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" class="mail2" placeholder="email">
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" class="password2" placeholder="password">
+        </div>
+        <div class="div-button">
+          <button class="btn form-btn signIn-btn">Sign-In</button>
+        </div>
+      </form>
+    </div>
+
+
+    <div class="container">
+      <!-- <a href="./html/home.html"> -->
+        <button class="orange-image signIn">Sign-In</button>
+      <!-- </a> -->
+      <div class="grey-image"></div>
+      <div class="content-container">
+        <div class="landing-msg">
+          <h1>Orange Your Thoughts</h1>
+          <div>
+            <button class="btn get-started">Get started</button>
+            <a href="./html/home.html">Home</a>
+            <p>Take notes the simple way for free. Forever</p>
+          </div>
+        </div>
+        <div class="landing-img">
+          <img src="./img/landing-page.png" alt="img" width="300">
+        </div>
+      </div>
+      <div>
+        <img src="./img/landing-page.png" alt="img" width="350">
+      </div>
+    </div>
+  </main>
+  <script>
+    var exports = {}; // defining an empty exports object is that common workaround
+  </script>
+  <script type="module" src="../dist/index.js"></script>
+</body>
+</html>
